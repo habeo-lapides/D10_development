@@ -20,7 +20,10 @@
         "drupal/core-project-message": "^10.2",
         "drupal/core-recommended": "^10.2",
         "drupal/devel": "^5.2",
-        "drupal/examples": "^4.0"
+        "drupal/examples": "^4.0",
+        "drupal/profile": "^1.10",
+        "drupal/workflow": "^1.7",
+        "drush/drush": "^12.5"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -94,5 +97,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "drupal/test_helpers": "^1.3"
     }
 }
