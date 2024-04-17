@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "325cd321733781ba4a8269c331b2089e",
+    "content-hash": "4f9229c92284b6ea0e11d2f706f6b230",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1870,6 +1870,66 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/entity",
                 "issues": "https://www.drupal.org/project/issues/entity"
+            }
+        },
+        {
+            "name": "drupal/error_reporting",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/error_reporting.git",
+                "reference": "1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/error_reporting-1.0.1.zip",
+                "reference": "1.0.1",
+                "shasum": "4499ebc7adf513d08a9cdaf5a770882dfcab5807"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.1",
+                    "datestamp": "1711526361",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "gurinderpal-lnwebworks",
+                    "homepage": "https://www.drupal.org/user/3742122"
+                },
+                {
+                    "name": "Manpreet_Singh",
+                    "homepage": "https://www.drupal.org/user/3692674"
+                },
+                {
+                    "name": "Pankaj_LNweb",
+                    "homepage": "https://www.drupal.org/user/3600604"
+                },
+                {
+                    "name": "Shikha_LNweb",
+                    "homepage": "https://www.drupal.org/user/2930533"
+                },
+                {
+                    "name": "sunil_lnwebworks",
+                    "homepage": "https://www.drupal.org/user/3726661"
+                }
+            ],
+            "description": "Improves Drupal's error reporting for better debugging and issue resolution.",
+            "homepage": "https://www.drupal.org/project/error_reporting",
+            "support": {
+                "source": "https://git.drupalcode.org/project/error_reporting"
             }
         },
         {
